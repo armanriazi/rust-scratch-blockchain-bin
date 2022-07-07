@@ -1,0 +1,14 @@
+[package]
+name = "use-rust-scratch-blockchain"
+version = "0.0.1"
+edition = "2021"
+
+
+
+[dependencies]
+library_utils = "0.0.2"
+blockchain-scratch-rust = "0.3.0"
+
+
+[profile.release]
+opt-level = "s"
